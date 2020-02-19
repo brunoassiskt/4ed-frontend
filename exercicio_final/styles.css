@@ -1,0 +1,100 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    width: 1366px;
+    height: 90px;
+    margin: 0 auto;  
+}
+
+nav{
+    width: 1366px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.button1 {
+    width: 120px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.banner {
+    width: 100%;
+    height: 900px;
+    background-size: cover; 
+    object-fit: fill;
+    background-image: url('https://toflipflop.files.wordpress.com/2011/08/193363_10150164271838254_80329313253_6744668_5075545_o.jpg');
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper{
+    width: 1366px;
+    height: 500px;
+}
+
+.wrapper h1{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.wrapper h2{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.partnerbox{
+    width: 1366px;
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    background-position: center; 
+    margin: 0 auto;
+}
+
+.button2 {
+    width: 300px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+
