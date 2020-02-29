@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
 <body>
@@ -14,7 +15,7 @@
     <header>
         <div class="container"> 
             <nav class="menu">
-                <a href="#"><img src="logo_arqajuda.png" class="logo" alt="Logo ARQAjuda"></a>
+                <a href="#" class="logo"><img src="logo_arqajuda.png" class="logo" alt="Logo ARQAjuda"></a>
                 <a href="#"><i class="material-icons">visibility_off</i></a>
                 <a href="#">Home</a>
                 <a href="#">Como funciona?</a>
@@ -25,16 +26,16 @@
                 <a href="#"><i class="material-icons">search</i></a>
                 <a href="#"><i class="material-icons">shopping_cart</i></a>
                 <a href="#"><i class="material-icons">person_outline</i></a>
-                <a href="#"></a><button class="button1">Matricule-se</button></a>
+                <button class="button1">Matricule-se</button>
             </nav>
         </div>
     </header>
 
     <div class="banner">
         <div class="wrapper"> 
-            <h1>Tenha tutores reais auxiliando<br>seu aprendizado nas áreas de<br>Arquitetura, Urbanismo e Interiores.</h1>
-            <h2>Você está com dificuldade nas disciplinas?<br>Conecte-se a profissionais experientes<br>capazes de transformar seu aprendizado.</h2>
-            <a href="#"><button class="button2">Conheça os cursos</button></a>
+            <h1>Tenha tutores reais auxiliando seu aprendizado nas áreas de Arquitetura, Urbanismo e Interiores.</h1>
+            <h2>Você está com dificuldade nas disciplinas? Conecte-se a profissionais experientes capazes de transformar seu aprendizado.</h2>
+            <button class="button2">Conheça os cursos</button>
         </div>
     </div>
 
@@ -73,44 +74,44 @@
         </div>
     </div>
     <div class="opiniaocontainer">
-        <div class="opiniaotitle">
+        <div class="opiniaotitlecontainer">
             <h1>Opiniões<br>dos alunos<br>ARQajudados</h1>
             <a href="#" class="vejatodasopinioes">Veja todas as opiniões +</a>
-
-
         </div>
-        <div class="opiniaobox">
+        <div class="opiniaoboxcontainer owl-carousel">
+            <div class="opiniaobox">
             <img src="estrelas.png" class="estrelas" alt="Estrelas">           
             <p class="opiniaoboxtexto"> “Os tutores são muito capacitados, me possibilitando ter aulas de qualidade e tirar minhas dúvidas. O preço do plano premium tem um excelente custo-benefício.”</p>
             <div class="containerfotoeopiniao">
-                <img src="pessoa1.jpg" class="opiniaofoto" alt=">Aluno 1">
+                <img src="pessoa1.jpg" class="opiniaofoto" alt="Aluno 1">
                 <p class="opiniaoboxid"><strong>Fulano de Tal</strong><br>Estudante de Arquitetura e Urbanismo @UFRGS</p>
                 </div>
-        </div>
-        <div class="opiniaobox">
+            </div>
+            <div class="opiniaobox">
             <img src="estrelas.png" class="estrelas" alt="Estrelas">           
             <p class="opiniaoboxtexto"> “A estrutura dos PDFs é muito boa, com videoaulas específicas para cada módulo dos cursos. Excelente clareza nas aulas, e os professores são muito competentes!”</p>
             <div class="containerfotoeopiniao">
                 <img src="pessoa2.jpg" class="opiniaofoto" alt=">Aluno 2">
                 <p class="opiniaoboxid"><strong>Fulana de Tal</strong><br>Estudante de Design de Interiores @4ED</p> 
             </div>   
-         </div>    
-         <div class="opiniaobox">
+            </div>    
+            <div class="opiniaobox">
              <img src="estrelas.png" class="estrelas" alt="Estrelas">           
              <p class="opiniaoboxtexto"> “Professores capacitados, empenhados, ótima estrutura dos cursos. Biblioteca virtual e conteúdos de ótima qualidade, uma experiência muito agregadora.”</p>
              <div class="containerfotoeopiniao">
                 <img src="pessoa3.jpg" class="opiniaofoto" alt=">Aluno 3">
                 <p class="opiniaoboxid"><strong>Sicrana de Tal</strong><br>Estudante de Técnico em Edificações @IFRS</p> 
             </div>
-        </div>
-        <div class="opiniaobox">
+            </div>
+            <div class="opiniaobox">
                 <img src="estrelas.png" class="estrelas" alt="Estrelas">           
                 <p class="opiniaoboxtexto"> “Fazer o curso de Urbanismo nessa plataforma foi ótimo. Aprendi muito, reforcei o conteúdo em que eu tinha dificuldades de tirei nota 10 em Projeto.”</p>
                 <div class="containerfotoeopiniao">
                    <img src="pessoa4.jpg" class="opiniaofoto" alt=">Aluno 4">
                    <p class="opiniaoboxid"><strong>Beltrano de Tal</strong><br>Estudante Design de Urbanismo @UNEB</p> 
                </div>
-           </div>
+            </div>
+        </div>
     </div>
  
     <footer>
@@ -143,7 +144,8 @@
                     <input type="email" name="e-mail" placeholder="Insira seu e-mail">
                 </form>
                 <h4>Ao inserir seu e-mail, você concorda com nossos <a href="#">Termos de Serviço e Políticas de Privacidade</a>.</h4>
-        </div>
+            </div>
+     </div>
     </footer>
 
 
@@ -153,7 +155,9 @@
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="main.js"></script>
 
-<script src="main.js"></script>
 </body>
 </html>
