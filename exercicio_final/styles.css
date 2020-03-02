@@ -141,7 +141,7 @@ nav a {
 
 .numbersinfo {
     width: 900px;
-    height: 480px;
+    height: 100%;
 }
 
 .numbersinfo h1 {
@@ -196,7 +196,6 @@ nav a {
 }
 
 .saibamaislink {
-    margin-left: 25px;
     font-family: 'Roboto';
     font-weight: bold;
     color: #E25A32;
@@ -204,6 +203,9 @@ nav a {
     border-bottom: 2px solid #E25A32; 
     padding-bottom: 3px;
     text-decoration: none;
+    text-align: center;
+
+
 }
 
 .opiniaocontainer {
@@ -471,7 +473,7 @@ form input{
         font-size: 20px;
         margin-top: 20px;
         line-height: 30px;
-        margin-bottom: 45px;
+        margin-bottom: 35px;
         text-align: center;
         width: 100%;
     }
@@ -543,15 +545,14 @@ form input{
     }
 
     .saibamaislink {
-        text-align: center !important;
         font-size: 15px;
-        margin-bottom: 20px;
-
+        margin: 0 auto;
+        display: table;
     }
 
     .box{
-        width: 150px;
-        height: 150px;
+        width: 100%;
+        height: 110px;
     }
 
     .box h1{
@@ -561,7 +562,7 @@ form input{
 
     .box h2{
         font-size: 25px;
-        margin-top: 10px;
+        margin-top: 0;
         line-height: 25px;
     }
 
@@ -594,7 +595,7 @@ form input{
         text-align: center;
         font-size: 30px;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     
     .vejatodasopinioes {
