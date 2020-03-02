@@ -84,7 +84,8 @@ nav a {
     color: #FFF;
     font-size: 50px;
     font-weight: bolder;
-    margin-top: 50px;
+    margin-top: 30px;
+    width: 600px;
 }
 
 .wrapper h2 {
@@ -94,7 +95,8 @@ nav a {
     font-weight: normal;
     margin-top: 20px;
     line-height: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    width: 600px;
 }
 
 .partnerbox {
@@ -131,19 +133,19 @@ nav a {
 }
 
 .numbers {
-    min-width: 500px;
+    width: 466px;
     display: flex;
-    align-items: flex-start;
     flex-wrap: wrap;
-    
+
 }
 
 .numbersinfo {
-    width: 1366px;
-    height: 500px;
+    width: 900px;
+    height: 480px;
 }
 
 .numbersinfo h1 {
+    margin-left: 25px;
     font-family: 'Roboto';
     color:black;
     font-size: 35px;
@@ -153,13 +155,14 @@ nav a {
 }
 
 .numbersinfo h2 {
+    margin-left: 25px;
     font-family: 'Roboto';
     color: black;
     font-size: 26px;
     font-weight: normal;
     margin-top: 20px;
     line-height: 40px;
-    margin-bottom: 55px;
+    margin-bottom: 95px;
     margin-right: 20px;
 }
 
@@ -169,13 +172,14 @@ nav a {
     height: 200px;
     border-radius: 20px;
     margin-top: 22px;
-    margin-right: 22px;
     text-align: center;
+    margin-right: 30px;
+    margin-bottom: 5px;
 
 }
 
 .box h1 {
-    margin-top: 15px;
+    margin-top: 25px;
     font-family: 'Roboto';
     color: #FFF;
     font-size: 60px;
@@ -187,12 +191,12 @@ nav a {
     color: #FFF;
     font-size: 30px;
     font-weight: normal;
-    line-height: 35px;
+    line-height: 40px;
     text-align: center;
-    margin-top: 15px;
 }
 
 .saibamaislink {
+    margin-left: 25px;
     font-family: 'Roboto';
     font-weight: bold;
     color: #E25A32;
@@ -230,13 +234,7 @@ nav a {
     height: 250px;
     padding-top: 20px;
     box-sizing: border-box;
-
 }
-
-.opiniaobox img {
-
-}
-
 
 .opiniaotitlecontainer h1 {
     margin-top: 14px;
@@ -255,6 +253,7 @@ nav a {
     border-bottom: 2px solid gray; 
     padding-bottom: 3px;
     text-decoration: none;
+    text-align: left;
 }
 
 .estrelas {
@@ -297,7 +296,6 @@ nav a {
     flex-wrap: wrap;
 }
 
-
 /* Rodapé */
 
 footer {
@@ -316,6 +314,7 @@ footer {
     justify-content: space-between;
     align-items: initial;
     margin-top: 70px;
+
 }
 
 .logorodape {
@@ -410,18 +409,28 @@ form input{
 
 @media (max-width: 480px){
 
-    /* nav bar */
+    /* cabecalho */
 
     header {
-        width: 90%;
+        width: 100%;
+        position: relative;
+        height: 70px;
     }
 
     .container {
         width: 90%;
+        height: 70px;
     }
 
     nav {
         width: 90%;
+        justify-content: center;
+        height: 70px;
+    }
+
+    .menu{
+        width: 100%;
+        
     }
 
     .menu a {
@@ -430,11 +439,10 @@ form input{
 
     .menu a.logo {
         display:block;
+        align-items: center;
     }
 
-    .menu{
-        width: 100%;
-    }
+]
 
     .button1 {
         display: none;
@@ -445,6 +453,7 @@ form input{
     
     .banner {
         width: 100%;
+        height: 600px;
    
     }
 
@@ -454,10 +463,8 @@ form input{
 
     .wrapper h1{
         font-size: 30px;
-        margin-top: 10px;
-        width: 300px;
-        margin: 0 auto;
-        text-align: center
+        width: 100%;
+        text-align: center;
     }
 
     .wrapper h2{
@@ -465,16 +472,22 @@ form input{
         margin-top: 20px;
         line-height: 30px;
         margin-bottom: 45px;
-        text-align: center
-
+        text-align: center;
+        width: 100%;
     }
 
+    .button1{
+        display: none;
+    }
     .button2{
+        width: 250px;
         margin: 0 auto;
         display: block;
+        font-size: 22px;
     }
 
-  /* logo parceiros */
+    /* logo parceiros */
+
     .partnerbox {
         width: 90%;
         justify-content: center;
@@ -486,7 +499,160 @@ form input{
     }
 
     .partnerbox img {
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+
+    /* parte dos numeros */
+
+    .aboutbox{
+        display: block;
+        width: 90%;
+    }
+
+    .numbers{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-left: 14px;
+    }
+
+    .numbersinfo{
+        width: 100%;
+        align-items: center;
+    }
+
+    .numbersinfo h1{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 8px;
+    }
+
+    .numbersinfo h2{
+        font-size: 20px;
+        text-align: center;
+        line-height: 28px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .saibamaislink {
+        text-align: center !important;
+        font-size: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .box{
+        width: 150px;
+        height: 150px;
+    }
+
+    .box h1{
+        font-size: 40px;
+        margin-top: 16px;
+    }
+
+    .box h2{
+        font-size: 25px;
+        margin-top: 10px;
+        line-height: 25px;
+    }
+
+    /* parte das opinioes */
+
+    .opiniaocontainer{
+        display: block;
+        width: 300px;
+        height: max-content;
+    }
+
+    .opiniaoboxcontainer{
+        width: 90%;
+    }
+
+    .opiniaocontainer{
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        height: 500px;
+    }
+
+    .opiniaotitlecontainer{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .opiniaotitlecontainer h1{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .vejatodasopinioes {
+        font-size: 15px;
+    }
+    
+    .opiniaobox{
+        width: 100%;
+        text-align: left;
+    }
+
+    .owl-dots{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+/* parte das opinioes */
+
+    footer{
+        height: 300px;
+    }
+
+    .rodape{
+        background-color: black;
+        width: 90%;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .divrodape1{
+        align-items: center;
+        height: 80px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .divrodape1 img {
+        height: 80px;
+        margin: 0 auto;   
+    }
+
+    .divrodape2, .divrodape3 {
+        display: none;
+    }
+
+    .divrodape4 {
+        width:100%;
+        align-items: center;
+    }
+
+    .divrodape4 h3{
+        text-align: center;
+    }
+
+    .divrodape4 h4{
+        text-align: center;
     }
 
 
